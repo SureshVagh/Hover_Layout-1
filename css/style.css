@@ -16,7 +16,7 @@ body {
 .main-container {
     width: 80%;
     margin: auto;
-    padding: 100px 0 0;
+    padding: 100px 0;
     overflow: auto;
 }
 
@@ -27,25 +27,22 @@ body {
 
 }
 
-.green:hover {
+.all:hover {
     position: relative;
     bottom: 15px;
-    border-top: 5px solid #a4c639;
     box-shadow: 0 15px 15px rgba(0, 0, 0, .15);
+}
+
+.green:hover {
+    border-top: 5px solid #a4c639;
 }
 
 .grey:hover {
-    position: relative;
-    bottom: 15px;
     border-top: 5px solid #999999;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, .15);
 }
 
 .blue:hover {
-    position: relative;
-    bottom: 15px;
     border-top: 5px solid #00adef;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, .15);
 }
 
 .client-container {
@@ -66,7 +63,6 @@ body {
 
 img {
     height: 100px;
-    width: 100%;
 }
 
 .content-p {
@@ -75,4 +71,13 @@ img {
     font-weight: 500;
     line-height: 26px;
     margin: 0;
+}
+
+.sec-container{
+    width: 50%;
+    margin: auto;
+}
+
+.gallary{
+    
 }
